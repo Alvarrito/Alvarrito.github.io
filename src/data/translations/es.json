@@ -1,0 +1,24 @@
+{
+  "nav.home": "Inicio",
+  "nav.about": "Sobre mí",
+  "nav.skills": "Habilidades",
+  "nav.projects": "Proyectos",
+  "nav.contact": "Contacto",
+  
+  "hero.greeting": "Hola, soy",
+  "hero.name": "Álvaro",
+  "hero.fullName": "Álvaro Sánchez Laguna",
+  "hero.role": "Desarrollador Full Stack",
+  "hero.description": "Especializado en crear aplicaciones web modernas y escalables. Apasionado por el código limpio y las mejores prácticas de desarrollo.",
+  "hero.viewProjects": "Ver Proyectos",
+  "hero.contact": "Contactar",
+  
+  "section.about.title": "Sobre mí",
+  "section.about.placeholder": "Sección en desarrollo...",
+  "section.skills.title": "Habilidades",
+  "section.skills.placeholder": "Sección en desarrollo...",
+  "section.projects.title": "Proyectos",
+  "section.projects.placeholder": "Sección en desarrollo...",
+  "section.contact.title": "Contacto",
+  "section.contact.placeholder": "Sección en desarrollo..."
+}

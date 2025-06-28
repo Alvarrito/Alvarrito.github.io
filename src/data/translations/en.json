@@ -1,0 +1,24 @@
+{
+  "nav.home": "Home",
+  "nav.about": "About",
+  "nav.skills": "Skills",
+  "nav.projects": "Projects",
+  "nav.contact": "Contact",
+  
+  "hero.greeting": "Hi, I'm",
+  "hero.name": "Álvaro",
+  "hero.fullName": "Álvaro Sánchez Laguna",
+  "hero.role": "Full Stack Developer",
+  "hero.description": "Specialized in creating modern and scalable web applications. Passionate about clean code and development best practices.",
+  "hero.viewProjects": "View Projects",
+  "hero.contact": "Contact",
+  
+  "section.about.title": "About Me",
+  "section.about.placeholder": "Section under development...",
+  "section.skills.title": "Skills",
+  "section.skills.placeholder": "Section under development...",
+  "section.projects.title": "Projects",
+  "section.projects.placeholder": "Section under development...",
+  "section.contact.title": "Contact",
+  "section.contact.placeholder": "Section under development..."
+}
