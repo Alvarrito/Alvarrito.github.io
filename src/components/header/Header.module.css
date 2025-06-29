@@ -23,6 +23,7 @@
   align-items: center;
   justify-content: space-between;
   height: 70px;
+  min-height: 70px;
 }
 
 .logo {
@@ -34,11 +35,16 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
   white-space: nowrap;
+  flex-shrink: 0;
+  min-width: 200px;
 }
 
 .nav {
   display: flex;
   gap: 2rem;
+  flex: 1;
+  justify-content: center;
+  margin: 0 2rem;
 }
 
 .navLink {
@@ -52,6 +58,8 @@
   border-radius: 8px;
   transition: all 0.3s ease;
   position: relative;
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 .navLink:hover {
@@ -76,6 +84,13 @@
   width: 80%;
 }
 
+.languageSection {
+  flex-shrink: 0;
+  min-width: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
 @media (max-width: 768px) {
   .container {
     padding: 0 1rem;
@@ -83,10 +98,12 @@
   
   .logo {
     font-size: 1.1rem;
+    min-width: 150px;
   }
   
   .nav {
     gap: 1rem;
+    margin: 0 1rem;
   }
   
   .navLink {
@@ -102,5 +119,10 @@
   
   .logo {
     font-size: 1rem;
+    min-width: auto;
+  }
+  
+  .languageSection {
+    min-width: auto;
   }
 }
